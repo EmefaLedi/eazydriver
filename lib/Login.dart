@@ -2,7 +2,7 @@ import 'package:eazydriver/main.dart';
 import 'package:eazydriver/pages/signup.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'Widgets/FormCard.dart';
+import 'widgets/FormCard.dart';
 import './widgets/SocialIcons.dart';
 import 'CustomIcon.dart';
 
