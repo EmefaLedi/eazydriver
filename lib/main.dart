@@ -61,17 +61,22 @@ class MyApp extends StatelessWidget {
                     image: AssetImage('images/emefa.jpg'), fit: BoxFit.fill),
               ),
             ]),
-            // Padding(
-            //padding: EdgeInsets.only(top: 10.0),
-            // ),
+             Padding(
+            padding: EdgeInsets.only(top: 50.0),
+            ),
             Column(
+              mainAxisSize: MainAxisSize.max,
               children: <Widget>[
                 Row(
+                  mainAxisSize: MainAxisSize.max,
+                  mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    // SizedBox(
-                    //width: 30,
+                    //SizedBox(
+                    //width: double.infinity,
                     //),
-                    Column(children: <Widget>[
+                    Column(
+                        mainAxisSize: MainAxisSize.max,
+                        children: <Widget>[
                       Container(
                         width: 160,
                         height: 100,
@@ -83,7 +88,10 @@ class MyApp extends StatelessWidget {
                         ),
                       )
                       )]),
-                    Column(children: <Widget>[
+                    Column(
+                        mainAxisSize: MainAxisSize.max,
+
+                        children: <Widget>[
                       Container(
                           width: 160,
                           height: 100,
@@ -103,8 +111,13 @@ class MyApp extends StatelessWidget {
                 //Padding(
                 //padding: EdgeInsets.only(left: 5.0),
                 //),
-                Row(children: <Widget>[
-                  Column(children: <Widget>[
+                Row(
+                    mainAxisSize: MainAxisSize.max,
+                    mainAxisAlignment: MainAxisAlignment.center,
+                    children: <Widget>[
+                  Column(
+                      mainAxisSize: MainAxisSize.max,
+                      children: <Widget>[
                     Container(
                         width: 160,
                         height: 100,
@@ -116,7 +129,9 @@ class MyApp extends StatelessWidget {
                       ),
                     )
                     )]),
-                  Column(children: <Widget>[
+                  Column(
+                      mainAxisSize: MainAxisSize.max,
+                      children: <Widget>[
                     Container(
                         width: 160,
                         height: 100,
@@ -131,7 +146,7 @@ class MyApp extends StatelessWidget {
                 ])
               ],
             ),
-          ]),
+            ]),
         ));
   }
 }
