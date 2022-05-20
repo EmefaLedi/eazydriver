@@ -1,6 +1,6 @@
 # eazydriver
 
-A new Flutter project.
+A new Flutter project. Designed to assist drivers and authorities in the preceedings of licensing a vehicle or driver, all done on easydriver(an app)
 
 ## Getting Started
 
